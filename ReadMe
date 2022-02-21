@@ -1,0 +1,14 @@
+
+How to import variant details from variant validator
+
+We wrote a simple code on how to retrieve details on sequence variant variant validator
+BY providing there parameters details in desired format , the code can generate data output
+in JSON format from variant validator
+
+There are three parameters to be filled
+
+Parameter 1 = genome_build ( GRCh37 or GRCh38 or hg19 or hg38)
+Parameter 2 = variant_description (HGVS or Pseudo-VCF or Hybrid)
+Parameter 3 = select_transcripts (Return all possible or Return only 'select' transcripts
+               or Single or Multiple)
+
